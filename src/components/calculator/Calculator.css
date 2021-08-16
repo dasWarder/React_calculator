@@ -1,0 +1,61 @@
+.Calculator-panel {
+    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.2) 35%, rgba(0,0,0,0.3) 100%);
+    border-radius: 35px;
+    border: 2px solid rgba(1, 1, 1, 0.5);
+    box-shadow: 0px 10px 15px rgba(0,0,0,0.4);
+    alignment: center;
+    margin: 20px auto;
+    width: 28%;
+    padding: 0;
+}
+
+.Button-panel {
+    border: 1px solid rgba(0,0,0,0.2);
+    margin: 15px 15px;
+    display: block;
+    border-radius: 15px;
+}
+
+.Calculator-determination-bar {
+    background-color: rgba(100, 256, 256, 0.5);
+    max-width: 100%;
+    margin: 20px 10px;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid rgba(0,0,0,0.7);
+    height:40px;
+    text-align: right;
+    font-size: 2em;
+    overflow-y: auto;
+}
+
+.Calculator-panel-operation-block {
+    max-height: 75%;
+    border-radius: 15px;
+    border: 1px solid rgba(0,0,0,0.2);
+    margin: 15px 15px;
+}
+
+.Calculator-panel-number-block {
+    max-width: 90%;
+    max-height: 75%;
+    border-radius: 15px;
+    border: 1px solid rgba(0,0,0,0.2);
+    margin: 20px auto;
+}
+
+.Calculator-button {
+    border: 1px solid #111;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    display: inline;
+}
+
+.Calculator-button-reset {
+    background-color: red;
+}
+
+.Calculator-button:hover {
+    background-color: yellow;
+}
